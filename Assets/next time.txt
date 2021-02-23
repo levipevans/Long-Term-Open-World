@@ -1,0 +1,7 @@
+What to work on next time:
+
+
+- add inventory (and possibly a way to access it)
+- create better slope physics (like climbing maybe?)
+- find a better dialog system (or just figure out how to use the one I have better [like how to trigger events from the exit of the dialog])
+	- add a simple quest
