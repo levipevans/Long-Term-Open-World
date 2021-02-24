@@ -39,8 +39,6 @@ Really just don't write stupid code that's hard to edit or read. That's really w
     - Resolve issues if they exist
     - Keep things organized and nice
     - Organize things that aren't
-+ Label your branches and commits with good names (this rule will be heavily expanded upon in the future)
-    - DO NOT label your branches or commits only numbers, single letters, or stupid things
 
 + Commit names
     - ❌ DO NOT label commits only numbers, single letters, names that don't mean anything, or really anything stupid or annoying.
