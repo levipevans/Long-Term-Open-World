@@ -51,3 +51,5 @@ Really just don't write stupid code that's hard to edit or read. That's really w
     - As for what you DO name them, just say what feature you're working on
     - examples: 'walking anim', 'fall damage', 'dialogue', etc.
     - ***Do not be the reason I have to expand the rules on how to name branches***
++ We will likely be switching to use this ruleset for naming commits in the future, so reading through it will likely be useful
+    - https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
