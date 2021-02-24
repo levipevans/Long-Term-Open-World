@@ -28,9 +28,8 @@ public class FallDamage : MonoBehaviour
 
         if (oldYPosition - currentYPosition > terminalVelocity) // if velocity > terminal velocity then die
         {
-            objectControlScript.die();
+            objectControlScript.shouldDie = true;
         }
-  
         oldYPosition = currentYPosition;
     }
 }

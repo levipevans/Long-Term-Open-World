@@ -25,6 +25,7 @@ public class ThirdPersonMovement : MonoBehaviour
     
     Vector3 velocity;
     bool isGrounded;
+    public bool shouldDie = false;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
@@ -165,10 +166,13 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             controller.Move(velocity);
         }
-
+        if (shouldDie && isGrounded)
+        {
+            die();
+        }
     }
 
-    public void die()
+    void die()
     {
         anim.SetTrigger("Die");
         playerIsControllable = false;
