@@ -27,3 +27,29 @@ Really just don't write stupid code that's hard to edit or read. That's really w
 + Try not to clog up the hiarchy too much
     - Make things children of other objects when it makes sense, you can also create an empty object and use that as the parent of several objects
     - This is what I did for my player, I put the player and both cameras as children of the same 1 empty object. This made it so it was all in the same place in the hiarchy, and also took up less space.
+
+## Github etiquette
++ Label any issues you create with the proper tag (issues tab)
++ Only check off list items on projects in the pull request where you have actually solved the problem (or if the list says otherwise, follow the instructions on there)
++ Be helpful
+    - Create Projects (in the projects tab)
+    - Automate Projects
+    - Create wiki pages (Just try and make nice pages until I make an actual etiquette page and then we can update the old ones to match our agreed upon formatting).
+    - Create issue pages if there are any problems
+    - Resolve issues if they exist
+    - Keep things organized and nice
+    - Organize things that aren't
++ Label your branches and commits with good names (this rule will be heavily expanded upon in the future)
+    - DO NOT label your branches or commits only numbers, single letters, or stupid things
+
++ Commit names
+    - ❌ DO NOT label commits only numbers, single letters, names that don't mean anything, or really anything stupid or annoying.
+    - ❌ DO NOT label commits things like 'error', 'problem', '#375', 'object class', 'new commit'.
+    - ✔️ DO label commits things like 'fix email', 'create walking anim', 'solve drawing func', 'impliment climbing', etc.
+    - Small note: when naming commits, keep the verb of what you did in the infinitive form (i.e. '***fix*** lagging issue caused by travelling long distances', not '***fixed*** lagging issue caused by travelling long distances' the word 'traveling' wouldn't be edited because you didn't travel, but you did fix an issue, hence changing the verb 'fix')
++ Branch names
+    - Just name them after what you're fixing
+    - Same rules for what NOT to label them apply as the commit rules
+    - As for what you DO name them, just say what feature you're working on
+    - examples: 'walking anim', 'fall damage', 'dialogue', etc.
+    - ***Do not be the reason I have to expand the rules on how to name branches***
