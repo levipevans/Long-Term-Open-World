@@ -1,7 +1,7 @@
 # Long-Term-Open-World
 Unity project that's open world, and RPG style somewhat.
 
-Okay so this is a Unity3D project on version 2019.4.14f1. If you want to contact me, email me at glenseeber42@gmail.com (you can also find this email on my main profile README).
+Okay so this is a Unity3D project on version 2019.4.14f1. If you want to contact me, email me at glenseeber42@gmail.com (you can also find this email on my profile).
 
 If you want me to accept your pull request for your fork, you can either: 
 1. Do something listed on the projects tab
