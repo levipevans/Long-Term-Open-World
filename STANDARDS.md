@@ -53,3 +53,14 @@ Really just don't write stupid code that's hard to edit or read. That's really w
     - ***Do not be the reason I have to expand the rules on how to name branches***
 + We will likely be switching to use this ruleset for naming commits in the future, so reading through it will likely be useful
     - https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
+
+
++ Extended Commit rules that I low-key just rephrased from the link above^
+    - If you did anything even slightly big, you probably need to add an extended description
+    - Explain what you did, and why you did it
+    - Explain how the change will/does effect the problem it attempts to solve
+    - Explain any side effects of the change
+    - Don't expect the reviewer to know what the problem was
+    - Don't assume the code is self-explanatory
+    - Explain where the code fails, what the code does not solve, or any limitations it may have.
+    - Reread your commit message before submitting
