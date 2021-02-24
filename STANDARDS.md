@@ -29,6 +29,7 @@ Really just don't write stupid code that's hard to edit or read. That's really w
     - This is what I did for my player, I put the player and both cameras as children of the same 1 empty object. This made it so it was all in the same place in the hiarchy, and also took up less space.
 
 ## Github etiquette
+### General
 + Label any issues you create with the proper tag (issues tab)
 + Only check off list items on projects in the pull request where you have actually solved the problem (or if the list says otherwise, follow the instructions on there)
 + Be helpful
@@ -40,27 +41,33 @@ Really just don't write stupid code that's hard to edit or read. That's really w
     - Keep things organized and nice
     - Organize things that aren't
 
-+ Commit names
-    - ❌ DO NOT label commits only numbers, single letters, names that don't mean anything, or really anything stupid or annoying.
-    - ❌ DO NOT label commits things like 'error', 'problem', '#375', 'object class', 'new commit'.
-    - ✔️ DO label commits things like 'fix email', 'create walking anim', 'solve drawing func', 'impliment climbing', etc.
-    - Small note: when naming commits, keep the verb of what you did in the infinitive form (i.e. '***fix*** lagging issue caused by travelling long distances', not '***fixed*** lagging issue caused by travelling long distances' the word 'traveling' wouldn't be edited because you didn't travel, but you did fix an issue, hence changing the verb 'fix')
-+ Branch names
-    - Just name them after what you're fixing
-    - Same rules for what NOT to label them apply as the commit rules
-    - As for what you DO name them, just say what feature you're working on
-    - examples: 'walking anim', 'fall damage', 'dialogue', etc.
-    - ***Do not be the reason I have to expand the rules on how to name branches***
-+ We will likely be switching to use this ruleset for naming commits in the future, so reading through it will likely be useful
-    - https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
-
-
-+ Extended Commit rules that I low-key just rephrased from the link above^
-    - If you did anything even slightly big, you probably need to add an extended description
-    - Explain what you did, and why you did it
-    - Explain how the change will/does effect the problem it attempts to solve
-    - Explain any side effects of the change
-    - Don't expect the reviewer to know what the problem was
-    - Don't assume the code is self-explanatory
-    - Explain where the code fails, what the code does not solve, or any limitations it may have.
+### Commits
++ General
+    - Capitalize the start of sentences and lines.
+    - Use proper grammar and spelling so I know exactly what you're talking about
+    - Don't use run-ons, make it easy to read. Take advantage of short sentences.
+    - Don't make joke commits or commit messages.
++ Subject line
+    - The short description is the subject line, that's what we're gonna call it
+    - A proper subject line should always be able to fit into the sentence "If applied, this commit will <your subject line here>"
+    - Be more descriptive that "fix problem", try "fix character floor glitch", or "fix issue #237".
+    - Don't name it stupid things, and don't be lazy
+    - If the commit solves or works on an issue, add the issue number in the front of the subject line in brackets (like so: "[#132] fix item dupe glitch")
++ Extended description
+    - Add an extended description unless you only changed a text document (.txt, .md, or another non-code text file), or the change you made was extremely small
+    - Press enter before pasting a long link
+    - Format well, don't have a single, large block of text for me to read. Use lists, break text into blocks, even add symbols or emojis if you feel it's makes it easier to read
++ How to create a commit message
+    - Explain what you did and why you did it.
+    - Explain how this effects the problem you're attempting to solve
+    - Explain any other side-effects, short-comings, or bugs (new or old) within the new code.
+    - Don't expect the reviewer to understand the problem you were trying to fix.
+    - Don't assume your code is self-explanatory
     - Reread your commit message before submitting
+
+### Branch names
++ Just name them after what you're fixing
++ Same rules for what NOT to label them apply as the commit rules
++ As for what you DO name them, just say what feature you're working on
++ examples: 'walking anim', 'fall damage', 'dialogue', etc.
++ ***Do not be the reason I have to expand the rules on how to name branches***
