@@ -64,7 +64,7 @@ public class ThirdPersonMovement : MonoBehaviour
         #endregion
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
+    /*
         //fall damage check
         #region
         //checks the y position the player is at when they fall
@@ -88,7 +88,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         }
         #endregion
-
+        */
 
         //set velocity to a small value when the player is grounded
         if (isGrounded && velocity.y < 0)
@@ -168,7 +168,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     }
 
-    void die()
+    public void die()
     {
         anim.SetTrigger("Die");
         playerIsControllable = false;
